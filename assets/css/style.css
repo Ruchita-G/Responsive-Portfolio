@@ -34,7 +34,7 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: rgb(255, 119, 119);
+  color: #e57373 red lighten-3;
 }
 
 h1 {
@@ -73,7 +73,7 @@ h3 {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: rgb(255, 119, 119);
+  background: #e57373;
 }
 
 nav {
@@ -87,8 +87,8 @@ nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  text-decoration: none;
-  border-left: 1px solid rgb(255, 119, 119);
+  text-decoration: none;s
+  border-left: 1px solid #e57373;
 }
 
 nav a:first-child {
@@ -104,7 +104,7 @@ footer {
   color: #ffffff;
   text-align: center;
   background: gray;
-  border-top: 10px solid rgb(255, 119, 119);
+  border-top: 10px solid #e57373;
   height: 100px;
 }
 
@@ -162,7 +162,7 @@ h3, h2 {
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background: rgb(255, 119, 119);
+  background: #e57373;
   border-bottom: 0;
 }
 
@@ -210,7 +210,7 @@ input[type=submit] {
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  background: rgb(255, 119, 119);
+  background: #e57373;
   border: 0 none;
 }
 
