@@ -3,9 +3,12 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Contact | Your Name</title>
+  <title>Contact | Ruchita Gandhe</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"
+    integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -25,7 +28,15 @@
     <section class="main-section">
       <h1>Contact</h1>
 
-      <form id="contact-form">
+      <div style="text-align: center">
+        <a style="color:#e57373" href="https://www.linkedin.com/in/ruchita-gandhe-87778717a/" target="_blank"><i
+            class="fab fa-linkedin"></i> Linkedin </a>
+        <a style="color:#e57373" href="https://github.com/Ruchita-G" target="_blank"><i class="fab fa-github"></i> GitHub </a>
+        <a style="color:#e57373" href="mailto:ruchita.gandhe@gmail.com" method="post" enctype="text/plain"><i
+            class="fas fa-envelope-square"></i> Email</a>
+      </div>
+
+      <form id="contact-form" action="mailto:ruchita.gandhe@gmail.com" method="POST" class="contact-form">
         <ul>
           <li>
             <label for="name">Name</label>
@@ -49,7 +60,7 @@
 
   <footer>
     <div class="container">
-      Copyright &copy; 
+      Copyright &copy;
     </div>
   </footer>
 </body>
